@@ -161,4 +161,53 @@ h1 {
 
 .flex-block {
     padding-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1 0 350px;
+
+    padding: 24px;
+}
+
+.orange {
+    color: #FE8A02;
+}
+
+.light {
+    background-color: #F5F4F0;
+}
+
+.item-number {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1;
+
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.flex-item h3 {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 34px;
+    color: #FE8A02;
+
+    margin-bottom: 15px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.flex-item h2 {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    color: #FFFFFF;
+    line-height: 120%;
 }
