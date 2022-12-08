@@ -8,6 +8,8 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
+
+    margin: 0;
 }
 
 .container {
@@ -110,6 +112,9 @@ h1 {
 
     background-color: #FE8A02;
 }
+.header-button:hover {
+    background-color: #EA7600;
+}
 
 /* 1st section in main-block */
 
@@ -166,6 +171,7 @@ h1 {
     flex-wrap: wrap;
 }
 
+.flex-item-title,
 .flex-item {
     flex: 1 0 350px;
 
@@ -190,7 +196,7 @@ h1 {
     display: inline-block;
 }
 
-.flex-item h3 {
+.flex-item-header {
     font-family: Neucha, sans-serif;
     font-weight: 400;
     line-height: 1.2;
@@ -200,11 +206,17 @@ h1 {
     margin-bottom: 15px;
 }
 
+.flex-item:hover{
+    background-color:#FE8A02;
+
+    color: #FFFFFF;
+}
+
 .p-0 {
     padding: 0;
 }
 
-.flex-item h2 {
+.flex-item-title h2 {
     font-family: Neucha, sans-serif;
     font-weight: 400;
     font-size: 52px;
