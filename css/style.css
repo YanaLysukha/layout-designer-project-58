@@ -43,7 +43,7 @@ body {
     width: 100%;
     height: 100%;
 
-    
+    opacity: 0.9;
 }
 
 .header-title {
@@ -160,7 +160,7 @@ h1 {
     background-color: #42413C;
 
     position: relative;
-    top: -200px;
+    /*top: -200px;*/
     z-index: 1;
 }
 
@@ -226,4 +226,74 @@ h1 {
     font-size: 52px;
     color: #FFFFFF;
     line-height: 120%;
+}
+
+/* Section "IKEA effect" */
+
+.ikea-effect {
+    position: relative;
+}
+
+.ikea-effect::before {
+    content: '';
+
+    background: url('../img/background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.d-flex-upper {
+    display: flex;
+}
+
+.image-flex {
+    vertical-align: middle;
+    box-shadow: 0px 16px 32px 0px #00000026;
+}
+
+.block-item-flex {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+}
+
+.block-item-p {
+    font-size: 24px;
+    line-height: 29px;
+    color: #908D8B;
+}
+
+.block-item-flex h2 {
+    font-size: 60px;
+    line-height: 72px;
+    color: #2A2626;
+
+    margin-bottom: 30px;
+}
+
+.block-item-text {
+    font-size: 34px;
+    line-height: 41px;
+    color: #2A2626;
+}
+
+.block-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    padding: 5px 0px 5px 10px;
+    margin: 100px 0px 20px 0px;
+}
+
+.dark {
+    background-color:#B09A81;
+    color: #fff;
 }
