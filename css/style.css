@@ -212,6 +212,10 @@ h1 {
     color: #FFFFFF;
 }
 
+.flex-item:hover .flex-item-header {
+    color: #FFFFFF;
+}
+
 .p-0 {
     padding: 0;
 }
