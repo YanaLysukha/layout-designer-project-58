@@ -233,6 +233,7 @@ h1 {
 
 .ikea-effect {
     position: relative;
+    background-color: #F5F4F0;
 }
 
 .ikea-effect::before {
@@ -241,7 +242,6 @@ h1 {
     background: url('../img/background\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #F5F4F0;
 
     position: absolute;
     top: 0;
@@ -336,4 +336,54 @@ h1 {
 
 .white-text {
     color: #fff;
+}
+
+/* Section "distortion-of-novelty" */
+
+.distortion-of-novelty {
+    position: relative;
+
+    background-color: #F5F4F0;
+}
+
+.distortion-of-novelty::before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: url('../img/background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.9;
+}
+
+/* Section "hyperbolic-depreciation" */
+
+.hyperbolic-depreciation {
+    position: relative;
+
+    background-color: #B09A81;
+}
+
+.hyperbolic-depreciation::before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: url('../img/background\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.9;
 }
