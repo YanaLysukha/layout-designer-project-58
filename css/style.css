@@ -156,7 +156,7 @@ h1 {
     z-index: 5;
 }
 
-/* Section with 5 distortions */
+/* Section with 5 distortions (navigation block) */
 
 .five-distortions {
     background-color: #42413C;
@@ -183,6 +183,8 @@ h1 {
 .flex-item {
     background-color: #F5F4F0;
 }
+
+
 
 .orange {
     color: #FE8A02;
