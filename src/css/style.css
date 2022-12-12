@@ -1,7 +1,15 @@
-* {
+*,
+*::before,
+*::after
+ {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 
+    border: 0;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -15,7 +23,7 @@ body {
 }
 
 .container {
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     padding: 100px 0px;
 
@@ -39,7 +47,7 @@ body {
     left: 0;
     top: 0;
 
-    background: url('../img/image\ 1.png');
+    background: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -47,7 +55,7 @@ body {
     height: 100%;
     margin: 0;
 
-    opacity: 0.9;
+    opacity: 0.1;
 }
 
 .header-title {
@@ -70,11 +78,11 @@ h1 {
 
 .header-img {
     display: block;
-    height: 410px;
+    height: 525px;
 
     position: absolute;
-    top: 110px;
-    right: -119px;
+    top: 55px;
+    right: -270px;
 }
 
 .d-flex {
