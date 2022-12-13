@@ -1,20 +1,16 @@
-*{
+*,
+*::before,
+*::after
+ {
     box-sizing: border-box;
-    
+    margin: 0;
+    padding: 0;
 
     border: 0;
 }
 
 a {
     text-decoration: none;
-}
-
-h2 {
-    color: #FE8A02;
-    font-size: 60px;
-    font-family: 'Neucha';
-    font-weight: 400;
-    line-height: 1.2;
 }
 
 body {
@@ -341,10 +337,6 @@ span .orange {
 .dark {
     background-color:#B09A81;
     color: #fff;
-}
-
-.dark-text {
-    color: #2A2626;
 }
 
 /* Section "Premature-optimization" */
