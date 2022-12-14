@@ -62,7 +62,7 @@ body {
   left: 0;
   top: 0;
 
-  background: url('../img/background.png');
+  background: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -76,7 +76,7 @@ body {
 .header-title {
   position: relative;
 
-  margin: 0px 0px 185px;
+  margin-bottom: 185px;
 }
 
 .header-title span {
