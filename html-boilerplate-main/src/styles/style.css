@@ -10,7 +10,7 @@ a {
 }
 
 h2 {
-    color: #FE8A02;
+    color: #fe8a02;
     font-size: 60px;
     font-family: 'Neucha';
     font-weight: 400;
@@ -27,7 +27,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
-    color: #2A2626;
+    color: #2a2626;
 
     margin: 0;
 }
@@ -50,7 +50,7 @@ body {
 .header {
     position: relative;
 
-    background-color: #F5F4F0;
+    background-color: #f5f4f0;
 
     overflow: hidden;
 }
@@ -80,13 +80,13 @@ body {
 }
 
 .header-title span {
-    color: #2A2626;
+    color: #2a2626;
 }
 
 h1 {
     font-family: Neucha, sans-serif;
     font-size: 72px;
-    color: #FE8A02;
+    color: #fe8a02;
     line-height: 86px;
     font-weight: 400;
 }
@@ -139,16 +139,16 @@ h1 {
     display: inline-block;
     padding: 12px 24px;
 
-    background-color: #FE8A02;
+    background-color: #fe8a02;
 }
 .header-button:hover {
-    background-color: #EA7600;
+    background-color: #ea7600;
 }
 
 /* 1st section in main-block */
 
 .cognitive-distortions {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .cognitive-distortions-title h2 {
@@ -161,7 +161,7 @@ h1 {
     margin-bottom: 30px;
 }
 .cognitive-distortions span {
-    color: #FE8A02;
+    color: #fe8a02;
 }
 
 .cognitive-distortions-title p {
@@ -187,7 +187,7 @@ h1 {
 /* Section with 5 distortions (navigation block) */
 
 .five-distortions {
-    background-color: #42413C;
+    background-color: #42413c;
 }
 
 .flex-block {
@@ -215,7 +215,7 @@ h1 {
 }
 
 span .orange {
-    color: #FE8A02;
+    color: #fe8a02;
 }
 
 .flex-block-title,
@@ -226,7 +226,7 @@ span .orange {
 }
 
 .flex-item {
-    background: #F5F4F0;
+    background: #f5f4f0;
     flex: 1;
     height: 100%;
     padding: 24px;
@@ -239,7 +239,7 @@ span .orange {
     font-size: 64px;
     font-weight: 400;
     line-height: 71px;
-    color: #42413C;
+    color: #42413c;
 
     margin-bottom: 40px;
 }
@@ -249,7 +249,7 @@ span .orange {
     font-size: 34px;
     font-weight: 400;
     line-height: 41px;
-    color: #FE8A02;
+    color: #fe8a02;
 
     display: block;
 
@@ -260,7 +260,7 @@ span .orange {
     display: block;
 
     line-height: 26px;
-    color: #2A2626;
+    color: #2a2626;
 }
 
 .flex-item:hover {
@@ -268,15 +268,15 @@ span .orange {
 }
 
 .flex-item:hover .item-number {
-    color: #fff;
+    color: #ffffff;
 }
 
 .flex-item:hover .flex-item-title {
-    color: #fff;
+    color: #ffffff;
 }
 
 .flex-item:hover .flex-item-text {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Section "IKEA effect" */
@@ -315,20 +315,20 @@ span .orange {
 .block-item-flex {
     font-family: Neucha, sans-serif;
     font-weight: 400;
-    color: #2A2626;
+    color: #2a2626;
 }
 
 .block-item-p {
     font-size: 24px;
     line-height: 29px;
-    color: #908D8B;
+    color: #908d8b;
 }
 
 .block-item-title{
     font-size: 60px;
     line-height: 72px;
     font-weight: 400;
-    color: #2A2626;
+    color: #2a2626;
 
     margin-bottom: 30px;
 }
@@ -349,19 +349,19 @@ span .orange {
 }
 
 .dark {
-    background-color:#B09A81;
-    color: #fff;
+    background-color:#b09a81;
+    color: #ffffff;
 }
 
 .dark-text {
-    color: #2A2626;
+    color: #2a2626;
 }
 
 /* Section "Premature-optimization" */
 
 .premature-optimization {
     position: relative;
-    background-color: #B09A81;
+    background-color: #b09a81;
 }
 
 .premature-optimization::before {
@@ -382,15 +382,15 @@ span .orange {
 
 .light {
     background-color: #fff;
-    color: #B09A81;
+    color: #b09a81;
 }
 
 .color {
-    color: #D7CCC0;
+    color: #d7ccc0;
 }
 
 .white-text {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Section "distortion-of-novelty" */
@@ -398,7 +398,7 @@ span .orange {
 .distortion-of-novelty {
     position: relative;
 
-    background-color: #F5F4F0;
+    background-color: #f5f4f0;
 }
 
 .distortion-of-novelty::before {
@@ -423,7 +423,7 @@ span .orange {
 .hyperbolic-depreciation {
     position: relative;
 
-    background-color: #B09A81;
+    background-color: #b09a81;
 }
 
 .hyperbolic-depreciation::before {
@@ -448,7 +448,7 @@ span .orange {
 .errors-in-planning {
     position: relative;
 
-    background-color: #F5F4F0;
+    background-color: #f5f4f0;
 }
 
 .errors-in-planning::before {
@@ -473,7 +473,7 @@ span .orange {
 .subscription-to-updates {
     display: flex;
 
-    background-color: #42413C;
+    background-color: #42413c;
 
     margin-bottom: 76px;
 }
@@ -483,7 +483,7 @@ span .orange {
     font-size: 34px;
     font-weight: 400;
     line-height: 41px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     padding: 55px;
 
@@ -507,11 +507,11 @@ span .orange {
 }
 
 .contacts a {
-    color: #007DC1;
+    color: #007dc1;
 }
 
 form p {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
 
     padding-top: 35px;
@@ -535,11 +535,11 @@ form p {
     font-size: 12px;
     font-weight: 400;
     line-height: 19px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .agreement a{
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn {
@@ -554,7 +554,7 @@ form p {
     vertical-align: middle;
     overflow: hidden;
 
-    background-color: #FE8A02;
+    background-color: #fe8a02;
     border: none;
 
     outline: 0;
@@ -575,5 +575,5 @@ form p {
 }
 
 .btn:hover {
-    background-color: #EA7600;
+    background-color: #ea7600;
 }
