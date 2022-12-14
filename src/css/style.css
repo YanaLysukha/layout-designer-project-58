@@ -5,6 +5,10 @@
     border: 0;
 }
 
+p {
+   
+}
+
 a {
     text-decoration: none;
 }
@@ -92,6 +96,7 @@ h1 {
     position: absolute;
     top: 55px;
     right: -270px;
+    margin: 0;
 }
 
 .d-flex {
@@ -101,6 +106,7 @@ h1 {
 
 .flex-p {
     width: 50%;
+    margin: 0;
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
