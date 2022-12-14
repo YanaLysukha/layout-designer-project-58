@@ -9,16 +9,6 @@ a {
   text-decoration: none;
 }
 
-h2 {
-  color: #fe8a02;
-  font-size: 60px;
-  font-family: "Neucha", sans-serif;
-  font-weight: 400;
-  line-height: 1.2;
-
-  margin-bottom: 22px;
-}
-
 ul {
   margin-bottom: 16px;
 }
@@ -30,6 +20,16 @@ body {
   color: #2a2626;
 
   margin: 0;
+}
+
+h2 {
+  color: #fe8a02;
+  font-size: 60px;
+  font-family: "Neucha", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+
+  margin-bottom: 22px;
 }
 
 .container {
@@ -206,7 +206,9 @@ h1 {
 
 .flex-block-title {
   display: block;
+  padding: 0;
 }
+
 
 .flex-block-title span {
   font-family: Neucha, sans-serif;
@@ -224,7 +226,6 @@ span .orange {
 .flex-item {
   display: block;
   width: 350px;
-
 }
 
 .flex-item {
@@ -311,7 +312,7 @@ span .orange {
 
 .image-flex {
   vertical-align: middle;
-  box-shadow: 0px 16px 32px 0px #00000026;
+  box-shadow: 0 16px 32px 0 #000026;
 }
 
 .block-item-flex {
@@ -351,7 +352,7 @@ span .orange {
 }
 
 .dark {
-  background-color:#b09a81;
+  background-color: #b09a81;
   color: #fff;
 }
 
@@ -363,6 +364,7 @@ span .orange {
 
 .premature-optimization {
   position: relative;
+
   background-color: #b09a81;
 }
 
@@ -525,11 +527,14 @@ span .orange {
   width: 423px;
   margin: 0;
   padding-left: 15px;
-  float: left;
-
+  
   outline: none;
 
   display: inline-block;
+}
+
+.email-form-block {
+  display: flex;
 }
 
 .agreement {
@@ -551,7 +556,6 @@ span .orange {
   height: 50px;
   width: 70px;
   margin: 0;
-  float: left;
 
   vertical-align: middle;
   overflow: hidden;
@@ -565,9 +569,8 @@ span .orange {
 .btn::before {
   content: "";
 
-  background-image: url("../img/Vector.svg");
+  background-image: url("../img/send.svg");
   background-repeat: no-repeat;
-    
   width: 25px;
   height: 25px;
   top: 15px;
