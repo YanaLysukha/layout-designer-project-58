@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +27,7 @@ body {
 h2 {
   color: #fe8a02;
   font-size: 60px;
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
   line-height: 1.2;
 
@@ -200,15 +202,10 @@ h1 {
   gap: 20px 30px;
 }
 
-.p-0 {
-  padding: 0;
-}  
-
 .flex-block-title {
   display: block;
   padding: 0;
 }
-
 
 .flex-block-title span {
   font-family: Neucha, sans-serif;
@@ -312,7 +309,7 @@ span .orange {
 
 .image-flex {
   vertical-align: middle;
-  box-shadow: 0 16px 32px 0 #000026;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .block-item-flex {
@@ -483,9 +480,9 @@ span .orange {
 }
 
 .subscription-to-updates-text {
-  font-family: "Neucha", sans-serif;
-  font-size: 34px;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
+  font-size: 34px;
   line-height: 41px;
   color: #fff;
 
@@ -523,14 +520,13 @@ span .orange {
 }
 
 .email-input {
+  display: inline-block;
   height: 50px;
   width: 423px;
   margin: 0;
   padding-left: 15px;
-  
-  outline: none;
 
-  display: inline-block;
+  outline: none;
 }
 
 .email-form-block {
